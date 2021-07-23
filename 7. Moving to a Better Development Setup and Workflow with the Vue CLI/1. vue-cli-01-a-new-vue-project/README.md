@@ -3,4 +3,4 @@
 - npm install
 - npm run serve
 
-after that open the Local link to see the project.
+After your machine finished loading scripts, copy the Local link and enter in your browser to see the project.
