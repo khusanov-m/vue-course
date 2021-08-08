@@ -11,7 +11,7 @@
 1. Open your [Firebase console](https://firebase.google.com/)
 2. Create a project
 3. Chose hosting method
-4. Install the Firebase CLI in the same folder `npm install -g firebase-tools`
+4. Install the Firebase CLI in the same folder of the project `npm install -g firebase-tools`
 5. Further run `firebase login` to login your firebase account
 6. After login, type `firebase init` to create a hosting
   - "Are you ready to proceed?" = type `y`
