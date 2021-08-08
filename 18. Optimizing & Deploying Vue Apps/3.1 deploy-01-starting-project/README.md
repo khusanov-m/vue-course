@@ -29,7 +29,7 @@ Firebase allow to use the project for 30 days. In case if the project don't work
 
 Also in the Firebase console in Authentication page, click "Sing-in method" and enable Email/Password (Only first should be toggled).
 
-To finalize in Realtime Database you should create database with Test mode and in Rules section of Realtime database replace code with
+To finalize, in Realtime Database you should create database with Test mode and in Rules section of Realtime database replace code with
 
 ```
 {
