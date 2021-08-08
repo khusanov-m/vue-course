@@ -8,7 +8,7 @@
 
 ## How to deploy on Firebase:
 
-1. Open your (Firebase console)[https://firebase.google.com/]
+1. Open your [Firebase console](https://firebase.google.com/)
 2. Create a project
 3. Chose hosting method
 4. Install the Firebase CLI in the same folder "npm install -g firebase-tools"
