@@ -31,7 +31,7 @@ Also in the Firebase console in Authentication page, click "Sing-in method" and 
 
 To finalize, in Realtime Database you should create database with Test mode and in Rules section of Realtime database replace code with
 
-```
+```JSON
 {
   "rules": {
     "coaches": {
