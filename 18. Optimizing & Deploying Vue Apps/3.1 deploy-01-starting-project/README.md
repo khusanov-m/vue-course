@@ -14,10 +14,10 @@
 4. Install the Firebase CLI in the same folder "npm install -g firebase-tools"
 5. Further run "firebase login" to login your firebase account
 6. After login, type "firebase init" to create a hosting
-  - 1 Type "y"
-  - 2 Find "Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys" and press space and then enter key
-  - 3 To the "What do you want to use as your public directory?" type "dist" to choose recently constructed script folder
-  - 4 "Configure as a single-page app (rewrite all urls to /index.html)?" type "y"
+  - Type "y"
+  - Find "Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys" and press space and then enter key
+  - To the "What do you want to use as your public directory?" type "dist" to choose recently constructed script folder
+  - "Configure as a single-page app (rewrite all urls to /index.html)?" type "y"
   - "Set up automatic builds and deploys with GitHub? (y/N)" type "n" if you don't want to deploy with Github
   - "File dist/index.html already exists. Overwrite? (y/N)" type "n" because we already build "dist" folder which ready to deployment
   - After all, firebase config will be created
