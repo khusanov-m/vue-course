@@ -23,3 +23,4 @@
   - After all, firebase config will be created
 7. As firebase config done, run `firebase deploy` to deploy your app/webpage to firebase hosting 
 
+### P.S. Firebase allow to use the project for 30 days. In case if the project don't work properly after `npm run serve` that means you need to create new project in Firebase and connect new project's API to all components where it was used.
