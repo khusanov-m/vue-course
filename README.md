@@ -6,4 +6,4 @@ Note: Some of the projects deployed on the Netlify and will be indicated with th
 
 *4. Course Project The Monster Slayer Game/ Demon Slayer [Demo](https://demon-slayer-khusanov-m-r.netlify.app/)*
 
-*18. Final Project Find a Coach Web App with Login, Data storage and Message inbox [Demo](https://vue-final-project-4891a.web.app/coaches)*
+*18. Final Project Find a Coach Web App with Login and Registration, Data storage and Message inbox methods [Demo](https://vue-final-project-4891a.web.app/coaches)*
