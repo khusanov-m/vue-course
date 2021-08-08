@@ -12,7 +12,7 @@
 2. Create a project
 3. Chose hosting method
 4. Install the Firebase CLI in the same folder `npm install -g firebase-tools`
-5. Further run "firebase login" to login your firebase account
+5. Further run `firebase login` to login your firebase account
 6. After login, type `firebase init` to create a hosting
   - "Are you ready to proceed?" = type `y`
   - "Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices." = Find "Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys" and press space and then enter key
