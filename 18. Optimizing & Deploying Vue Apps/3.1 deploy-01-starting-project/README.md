@@ -22,6 +22,26 @@
   - "File dist/index.html already exists. Overwrite? (y/N)" = type `n` because we already build "dist" folder which ready to deployment
   - After all, firebase config will be created
 7. As firebase config done, run `firebase deploy` to deploy your app/webpage to firebase hosting 
+8. Finally, terminal will show you link to open as real webpage with woldwide access
 
 ### Notice
 Firebase allow to use the project for 30 days. In case if the project don't work properly after `npm run serve` that means you need to create new project in Firebase and connect new project's API to all components where it was used.
+
+Also in the Firebase console in Authentication page, click "Sing-in method" and enable Email/Password (Only first should be toggled).
+
+To finalize in Realtime Database you should create database with Test mode and in Rules section of Realtime database replace code with
+
+```
+{
+  "rules": {
+    "coaches": {
+      ".read": true,
+    	".write": "auth != null",
+    },
+    "requests": {
+    	".read": "auth != null",
+    	".write": true,
+    }
+  }
+}
+```
